@@ -17,9 +17,9 @@ export const seoDescription =
 export const serviceCards = [
   {
     icon: '🚚',
-    title: 'On-Site Service',
+    title: 'Local Service',
     description:
-      'We arrive directly at your location, yard, or dock. No need to waste time driving to a facility.',
+      'I meet at the same spot (shown below) every time.',
   },
   {
     icon: '⏱',
