@@ -10,8 +10,8 @@ function HeroSection({ phoneHref }) {
           </h1>
           <p className="hero-subtitle">
             Professional truck &amp; trailer<br />
-            washout service. We come to you.<br />
-            High-pressure decontamination.
+            washout service. Oxnard CA.<br />
+            High-pressure Washing & Sanitizer.
           </p>
           <a className="hero-cta" href={`tel:${phoneHref}`}>
             <span>Call Now</span>
@@ -27,7 +27,7 @@ function HeroSection({ phoneHref }) {
           <div className="hero-badge">
             <div className="hero-badge-rule" />
             <span className="hero-badge-label">Mobile Unit</span>
-            <span className="hero-badge-sub">Est. 2024</span>
+            <span className="hero-badge-sub">Est. 2021</span>
           </div>
         </div>
       </div>

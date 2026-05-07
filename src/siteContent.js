@@ -19,13 +19,13 @@ export const serviceCards = [
     number: '01',
     title: 'One Location',
     description:
-      'Find us at our fixed site after confirming your washoutat 200 Del Norte Blvd, Oxnard. Available 7 days a week for maximum operational flexibility.',
+      'Find us at our fixed site after confirming your washout at 200 Del Norte Blvd, Oxnard. Available 7 days a week for maximum operational flexibility.',
   },
   {
     number: '02',
     title: 'Fast Turnaround',
     description:
-      'High-pressure cleaning systems designed to decontaminate and prep your trailers rapidly without sacrificing quality.',
+      'High-pressure cleaning systems designed to decontaminate and prep your trailers rapidly without sacrificing quality. We use Sanitzer to ensure thorough sanitation and compliance with industry standards.',
   },
   {
     number: '03',
@@ -47,7 +47,7 @@ export const seoFaqs = [
   {
     question: 'Do you provide mobile truck wash and trailer washout in Oxnard?',
     answer:
-      'Yes. We provide mobile truck wash and trailer washout in Oxnard and surrounding areas. We come directly to your yard, lot, or dock.',
+      'Yes. We provide mobile truck wash and trailer washout in Oxnard and surrounding areas. We meet you at our fixed location after confirming your washout. Our service is designed for maximum convenience and efficiency.',
   },
   {
     question: 'What types of trailers do you clean?',
@@ -57,6 +57,6 @@ export const seoFaqs = [
   {
     question: 'How quickly can you complete a washout?',
     answer:
-      'Turnaround depends on trailer condition and quantity, but our mobile setup is designed for fast service to keep your fleet moving.',
+      'Turnaround depends on trailer condition and quantity, but our mobile setup is designed for fast service to keep you moving.',
   },
 ]
