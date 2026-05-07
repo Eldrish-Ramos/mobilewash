@@ -588,14 +588,27 @@
     background: var(--c-dark);
   }
 
+  .hero-section,
+  .hero-inner {
+    min-height: 714px;
+  }
+
   .hero-watermark {
-    font-size: 150px;
-    top: auto;
-    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(108px, 34vw, 148px);
+    line-height: 0.9;
+    top: 122px;
+    bottom: auto;
   }
 
   .hero-left {
-    padding: 96px 24px 48px;
+    justify-content: flex-start;
+    padding: 124px 24px 48px;
+  }
+
+  .hero-title {
+    margin: 0 0 16px;
   }
 
   .hero-title-line1 {
@@ -604,6 +617,11 @@
 
   .hero-title-line2 {
     font-size: 45px;
+  }
+
+  .hero-subtitle {
+    margin: 0 0 24px;
+    max-width: 300px;
   }
 
   .stats-col {
