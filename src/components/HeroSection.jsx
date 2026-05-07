@@ -14,7 +14,7 @@ function HeroSection({ phoneHref }) {
             High-pressure decontamination.
           </p>
           <a className="hero-cta" href={`tel:${phoneHref}`}>
-            <span>Book Service</span>
+            <span>Call Now</span>
             <span className="hero-cta-arrow" aria-hidden="true">&rarr;</span>
           </a>
         </div>

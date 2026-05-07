@@ -1,7 +1,7 @@
 function LocationSection({ mapEmbedSrc }) {
   return (
     <section className="location-section">
-      <div className="location-label">Service Area</div>
+      <div className="location-label">Service Area - Same Meeting Location Every Time - <b>WE WILL MEET YOU AT THIS LOCATION AFTER CONFIRMING YOUR WASHOUT</b></div>
       <div className="map-embed-shell">
         <iframe
           title="Service area map"
@@ -12,7 +12,7 @@ function LocationSection({ mapEmbedSrc }) {
           allowFullScreen
         />
       </div>
-      <p className="location-tagline">We operate across the region</p>
+      <p className="location-tagline">Oxnard - Camarillo - Port Hueneme - Thousand Oaks</p>
     </section>
   )
 }

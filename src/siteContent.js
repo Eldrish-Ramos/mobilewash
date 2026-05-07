@@ -17,9 +17,9 @@ export const seoDescription =
 export const serviceCards = [
   {
     number: '01',
-    title: 'On-Site Service',
+    title: 'One Location',
     description:
-      'We deploy directly to your yard, dock, or facility. Available 7 days a week for maximum operational flexibility.',
+      'Find us at our fixed site after confirming your washoutat 200 Del Norte Blvd, Oxnard. Available 7 days a week for maximum operational flexibility.',
   },
   {
     number: '02',

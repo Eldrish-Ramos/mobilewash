@@ -8,10 +8,10 @@ function BookingSection({ phoneHref, phoneDisplay }) {
         </a>
       </div>
       <div className="cta-book-col">
-        <div className="cta-book-heading">BOOK<br />NOW</div>
+        <div className="cta-book-heading">GET A<br />WASHOUT</div>
         <div className="cta-buttons">
-          <a href={`tel:${phoneHref}`} className="cta-btn">Call Dispatch</a>
-          <a href={`sms:${phoneHref}`} className="cta-btn">Text Details</a>
+          <a href={`tel:${phoneHref}`} className="cta-btn">Call Now</a>
+          {/* <a href={`sms:${phoneHref}`} className="cta-btn">Text Details</a> */}
         </div>
       </div>
     </section>
