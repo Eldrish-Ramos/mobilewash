@@ -16,22 +16,22 @@ export const seoDescription =
 
 export const serviceCards = [
   {
-    icon: '🚚',
-    title: 'Local Service',
+    number: '01',
+    title: 'On-Site Service',
     description:
-      'I meet at the same spot (shown below) every time.',
+      'We deploy directly to your yard, dock, or facility. Available 7 days a week for maximum operational flexibility.',
   },
   {
-    icon: '⏱',
+    number: '02',
     title: 'Fast Turnaround',
     description:
-      'Efficient, high-pressure cleaning systems get your trailer back on the road in record time.',
+      'High-pressure cleaning systems designed to decontaminate and prep your trailers rapidly without sacrificing quality.',
   },
   {
-    icon: '🧼',
+    number: '03',
     title: 'All Trailer Types',
     description:
-      'Equipped for food-grade prep, dry goods sweep-outs, and heavy freight - We use sanitizer!.',
+      'Specialized washout protocols for food-grade, dry goods, and heavy freight decontamination.',
   },
 ]
 

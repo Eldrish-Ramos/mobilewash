@@ -5,6 +5,8 @@ import LocationSection from './components/LocationSection'
 import SeoHead from './components/SeoHead'
 import ServicesSection from './components/ServicesSection'
 import SiteFooter from './components/SiteFooter'
+import SiteNav from './components/SiteNav'
+import StatsSection from './components/StatsSection'
 import {
   businessName,
   mapEmbedSrc,
@@ -56,19 +58,23 @@ function App() {
   }
 
   return (
-    <main className="landing-page">
+    <div className="site-wrapper">
       <SeoHead
         title={seoTitle}
         description={seoDescription}
         canonicalUrl={siteUrl}
         schema={localBusinessSchema}
       />
-      <HeroSection phoneHref={phoneHref} phoneDisplay={phoneDisplay} />
-      <ServicesSection serviceCards={serviceCards} />
-      <BookingSection phoneHref={phoneHref} phoneDisplay={phoneDisplay} />
-      <LocationSection mapEmbedSrc={mapEmbedSrc} />
+      <SiteNav phoneHref={phoneHref} phoneDisplay={phoneDisplay} />
+      <main>
+        <HeroSection phoneHref={phoneHref} />
+        <StatsSection />
+        <ServicesSection serviceCards={serviceCards} />
+        <LocationSection mapEmbedSrc={mapEmbedSrc} />
+        <BookingSection phoneHref={phoneHref} phoneDisplay={phoneDisplay} />
+      </main>
       <SiteFooter />
-    </main>
+    </div>
   )
 }
 

@@ -1,9 +1,9 @@
 :root {
-  font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Barlow', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #ffffff;
-  background-color: #0d0d0d;
+  color: #1A1410;
+  background-color: #F2EDE6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  background: #0d0d0d;
+  background: #F2EDE6;
 }
 
 button {

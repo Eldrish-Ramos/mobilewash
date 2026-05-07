@@ -1,12 +1,18 @@
 function BookingSection({ phoneHref, phoneDisplay }) {
   return (
     <section className="cta-section">
-      <div className="cta-glow" aria-hidden="true" />
-      <div className="container-lg cta-content">
-        <p>Ready to Wash? Call Me!</p>
-        <a href={`tel:${phoneHref}`} className="phone-link">
+      <div className="cta-phone-col">
+        <p className="cta-call-label">Call or Text Anytime</p>
+        <a href={`tel:${phoneHref}`} className="cta-phone-number">
           {phoneDisplay}
         </a>
+      </div>
+      <div className="cta-book-col">
+        <div className="cta-book-heading">BOOK<br />NOW</div>
+        <div className="cta-buttons">
+          <a href={`tel:${phoneHref}`} className="cta-btn">Call Dispatch</a>
+          <a href={`sms:${phoneHref}`} className="cta-btn">Text Details</a>
+        </div>
       </div>
     </section>
   )
