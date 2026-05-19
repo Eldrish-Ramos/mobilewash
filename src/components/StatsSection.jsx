@@ -11,7 +11,7 @@ function StatsSection() {
       </div>
       <div className="stats-col stats-col--light stats-col--right">
         <div className="stats-value stats-value--blue">ONE SPOT</div>
-        <div className="stats-label">200 Del Norte Blvd, Oxnard</div>
+        <div className="stats-label">1401 Maulhardt Ave, Oxnard, CA 93030</div>
       </div>
     </section>
   )

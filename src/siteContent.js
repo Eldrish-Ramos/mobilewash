@@ -2,11 +2,11 @@ export const phoneDisplay = '(805)-940-4505'
 export const phoneHref = '(805)-940-4505'
 export const businessName = 'The Lab Mobile Wash'
 export const siteUrl = 'https://thelabmobilewash.com'
-export const serviceAddress = '200 Del Norte Blvd, Oxnard, CA'
+export const serviceAddress = '1401 Maulhardt Ave, Oxnard, CA 93030'
 export const serviceCity = 'Oxnard'
 export const serviceRegion = 'CA'
 
-export const mapQuery = '200 Del Norte Blvd, Oxnard, CA'
+export const mapQuery = '1401 Maulhardt Ave, Oxnard, CA 93030'
 export const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed&t=k`
 
 export const seoTitle =
@@ -19,7 +19,7 @@ export const serviceCards = [
     number: '01',
     title: 'One Location',
     description:
-      'Find us at our fixed site after confirming your washout at 200 Del Norte Blvd, Oxnard. Available 7 days a week for maximum operational flexibility.',
+      'Find us at our fixed site after confirming your washout at 1401 Maulhardt Ave, Oxnard, CA 93030. Available 7 days a week for maximum operational flexibility.',
   },
   {
     number: '02',
