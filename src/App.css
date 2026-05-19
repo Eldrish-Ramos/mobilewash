@@ -1,10 +1,10 @@
 /* ─── Design tokens ─────────────────────────────────────────── */
 :root {
-  --c-bg:     #F2EDE6;
+  --c-bg:     #E6EBF2;
   --c-dark:   #1A1410;
-  --c-blue:   #1A6FBF;
+  --c-blue:   #141A34;
   --c-muted:  #9C9690;
-  --c-border: #E8E2DA;
+  --c-border: #FFFFF1;
   --f-display: 'Barlow Condensed', sans-serif;
   --f-body:    'Barlow', sans-serif;
 }
@@ -181,7 +181,7 @@
   margin: 0 0 32px;
   max-width: 320px;
   font-family: var(--f-body);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.625;
   letter-spacing: 0.2em;
@@ -328,7 +328,7 @@
 .service-desc {
   margin: 0;
   font-family: var(--f-body);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.625;
   color: var(--c-dark);

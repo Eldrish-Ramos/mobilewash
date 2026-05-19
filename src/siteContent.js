@@ -1,5 +1,5 @@
-export const phoneDisplay = '(805)-603-0589'
-export const phoneHref = '(805)-603-0589'
+export const phoneDisplay = '(805)-940-4505'
+export const phoneHref = '(805)-940-4505'
 export const businessName = 'The Lab Mobile Wash'
 export const siteUrl = 'https://thelabmobilewash.com'
 export const serviceAddress = '200 Del Norte Blvd, Oxnard, CA'
@@ -7,7 +7,7 @@ export const serviceCity = 'Oxnard'
 export const serviceRegion = 'CA'
 
 export const mapQuery = '200 Del Norte Blvd, Oxnard, CA'
-export const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed`
+export const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed&t=k`
 
 export const seoTitle =
   'Mobile Truck Wash & Trailer Washout in Oxnard, CA | The Lab Mobile Wash'
