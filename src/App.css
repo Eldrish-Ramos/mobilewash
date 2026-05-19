@@ -552,13 +552,9 @@
 @media (max-width: 600px) {
   .site-nav {
     padding: 16px 24px;
-    background: rgba(242, 237, 230, 0.92);
-    backdrop-filter: blur(4px);
-    border-bottom: 2px solid var(--c-dark);
   }
 
   .nav-logo {
-    color: var(--c-dark);
     font-size: 22px;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -566,7 +562,6 @@
   }
 
   .nav-phone-link {
-    color: var(--c-dark);
     font-size: 12px;
     letter-spacing: 0.08em;
     white-space: nowrap;
