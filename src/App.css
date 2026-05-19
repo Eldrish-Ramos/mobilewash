@@ -47,24 +47,6 @@
   text-decoration: none;
 }
 
-.nav-hamburger {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
-  cursor: pointer;
-}
-
-.hamburger-line {
-  width: 32px;
-  height: 2px;
-  background: var(--c-bg);
-}
-
-.hamburger-line--short {
-  width: 24px;
-}
-
 /* ─── Hero ──────────────────────────────────────────────────── */
 .hero-section {
   position: relative;
@@ -588,10 +570,6 @@
     font-size: 12px;
     letter-spacing: 0.08em;
     white-space: nowrap;
-  }
-
-  .hamburger-line {
-    background: var(--c-dark);
   }
 
   .hero-section,
