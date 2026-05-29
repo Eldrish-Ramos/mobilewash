@@ -10,9 +10,9 @@ export const mapQuery = '1401 Maulhardt Ave, Oxnard, CA 93030'
 export const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed&t=k`
 
 export const seoTitle =
-  'Mobile Truck Wash & Trailer Washout in Oxnard, CA | The Lab Mobile Wash'
+  'Mobile Trailer Washout in Oxnard, CA | The Lab Mobile Wash'
 export const seoDescription =
-  'Mobile truck wash and trailer washout service in Oxnard, CA. Fast on-site cleaning for food-grade, dry goods, and freight trailers. Call The Lab Mobile Wash.'
+  'Mobile trailer washout service in Oxnard, CA. Fast washouts for all trailer types. Call The Lab Mobile Wash and get a wash now.'
 
 export const serviceCards = [
   {

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title>The Lab Mobile Wash Favicon</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2b45" />
+      <stop offset="100%" stop-color="#165e83" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2d06b" />
+      <stop offset="100%" stop-color="#e7a932" />
+    </linearGradient>
+  </defs>
+
+  <rect width="48" height="48" rx="10" fill="url(#bg)" />
+  <path d="M10 31h28v4H10z" fill="url(#accent)" />
+  <path d="M14 13h7v15h-4V17h-3z" fill="#ffffff" />
+  <path d="M25 13h9c0 6-2 10-6 12h6v3H24v-3c5-2 7-5 7-9h-6z" fill="#ffffff" />
+</svg>
